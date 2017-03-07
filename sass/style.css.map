@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "file": "style.css",
+  "sources": [
+    "style.scss",
+    "mixins.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAEA,OAAO,CAAC,yFAAI;;AACZ,CAAC,CAAA;EACC,OAAO,EAAE,IAAK,GADd;;;AAKC,CAAC,AAAA,MAAM,CAAD;EACL,eAAe,EAAE,IAAK,GADhB;;;AAIV,IAAI,CAAA;EACF,IAAI,AAAC,CAAC,AACJ,MAAM,EAAE,oBAAqB;EAD/B,IAAI,AAAC,CAAC,AAEJ,IAAI,EAAE,IAAK;EAFb,IAAI,AAAC,CAAC,AAGJ,MAAM,EAAE,GAAI,GAJX",
+  "names": []
+}

@@ -1,0 +1,25 @@
+@mixin psevdoLeft($width, $height, $top, $left, $url){
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: $height;
+    top: $top;
+    left: $left;
+    background: $url;
+  }
+}
+@mixin psevdoRight($width, $height, $top, $right, $url){
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: $height;
+    top: $top;
+    right: $right;
+    background: $url;
+  }
+}
+

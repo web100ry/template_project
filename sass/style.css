@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic-ext);
+/* line 4, /Users/andreykozyrev/Library/Mobile Documents/com~apple~CloudDocs/FRONTEND/BLANK/sass/style.scss */
+* {
+  outline: none; }
+
+/* line 9, /Users/andreykozyrev/Library/Mobile Documents/com~apple~CloudDocs/FRONTEND/BLANK/sass/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 13, /Users/andreykozyrev/Library/Mobile Documents/com~apple~CloudDocs/FRONTEND/BLANK/sass/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+/*# sourceMappingURL=style.css.map */
