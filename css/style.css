@@ -1,6 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic-ext);
 body{font-family:'Courier New', sans-serif;
-    font-size:44px;font-weight:400; color: #3c3c3c}
+    font-size:14px;font-weight:400; color: #3c3c3c}
 
+span{
+    font-family:'Courier New', sans-serif;
+    font-size:18px;font-weight:bold; color: #c12e2a;
+}
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+p{
+    padding-left: 50px;
+    font-size:18px;
+    font-weight:400;
+    color: #245580;
+
+}
+li { list-style-type: none; } /* Убираем исходную нумерацию */
+ol { counter-reset: list1; } /* Инициируем счетчик */
+ol li:before {
+    counter-increment: list1; /* Увеличиваем значение счетчика */
+    content: counter(list1) ". "; /* Выводим значение */
+}
+ol ol { counter-reset: list2; } /* Инициируем счетчик вложенного списка */
+ol ol li:before {
+    counter-increment: list2; /* Увеличиваем значение счетчика */
+    content: counter(list1) "." counter(list2) ". "; /* Выводим значение типа 2.1, 2.2,... */
+}
+ol ol ol{ counter-reset: list3; } /* Инициируем счетчик вложенного списка */
+ol ol ol li:before {
+    counter-increment: list3; /* Увеличиваем значение счетчика */
+    content: counter(list1) "." counter(list2) "." counter(list3)". "; /* Выводим значение типа 2.1, 2.2,... */
+}
 
 /*# sourceMappingURL=style.css.map */
