@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9482bf33-1398-49ab-bb81-7bef7f7ccbd8" name="Smartphon.biz.ua" url="http://ftp.s42.freehost.com.ua">
+        <fileTransfer host="ftp.s42.freehost.com.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5d5e1494-74ea-4b90-8daa-ca1e5c43255e" name="ot.km.ua" url="http://ftp.s42.freehost.com.ua">
+        <fileTransfer host="ftp.s42.freehost.com.ua" port="21" rootFolder="/www.ot.km.ua/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="cd2f65e7-cb19-4837-8b72-d991f8cc7b66" name="kafedra" url="http://mr.khnu.km.ua">
+        <fileTransfer host="mr.khnu.km.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

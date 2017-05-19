@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FTP loader</title>
+</head>
+<body>
+<form action="get_upload.php" method="POST" enctype="multipart/form-data">
+    <table align="center">
+        <tr>
+            <td align="right">Current server:</td>
+            <td><input size="50" type="text" name="server" value=""></td>
+        </tr>
+        <tr>
+            <td align="right">Username:</td>
+            <td><input size="50" type="text" name="user"  value="">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">Password:</td>
+            <td><input size="50" type="text" name="password" value="" ></td>
+        </tr>
+        <tr>
+            <td align="right">Path on the Server:</td>
+            <td><input size="50" type="text" name="pathserver" ></td>
+        </tr>
+        <tr>
+            <td align="right">Select File to Upload:</td>
+            <td><input name="userfile" type="file" size="50"></td>
+        </tr>
+    </table>
+    <table align="center">
+        <tr>
+            <td align="center"><input type="submit" name="submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
